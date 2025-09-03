@@ -1,7 +1,0 @@
-<!doctype html><html><head><meta charset="utf-8"/><title>Auth Callback</title></head>
-<body><p>Finishing sign-in…</p><script src="config.js"></script><script src="app.js"></script>
-<script>
-cafeAuth.exchangeCodeForTokens().catch(e=>{
-  document.body.innerHTML='<pre style="white-space:pre-wrap">'+e+'</pre>';
-});
-</script></body></html>
